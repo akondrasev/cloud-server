@@ -1,0 +1,22 @@
+app id: 159200011102171
+app secret: 4bd3a835a017e3047a4aa222c0bb5d33
+
+code insert after <body> open tag:
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '159200011102171',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>

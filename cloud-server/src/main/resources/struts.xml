@@ -5,4 +5,9 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+    <package name="default" extends="struts-default" namespace="/">
+        <action name="" class="inc.actions.login.LoginPageAction" method="execute">
+            <result name="success">jsp/login/login.jsp</result>
+        </action>
+    </package>
 </struts>

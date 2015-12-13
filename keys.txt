@@ -1,0 +1,13 @@
+$JAVA_HOME/bin/keytool -certreq -keyalg RSA -alias tomcat -file /var/lib/tomcat7/tomcat.csr -keystore /var/lib/tomcat7/tomcat.keystore --csr
+$JAVA_HOME/bin/keytool -genkey -alias tomcat -keyalg RSA -keystore /var/lib/tomcat7/tomcat.keystore
+
+
+service tomcat7 restart
+
+
+keystore:
+pass: gorod312
+alias: tomcat
+
+tomcat admin:
+akondrasev - gorod312
