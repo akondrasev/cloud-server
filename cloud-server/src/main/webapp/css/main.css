@@ -1,0 +1,60 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+.login-form{
+    padding-top: 2%;
+}
+.input-group{
+    padding-bottom: 10px;
+}
+.under-heading{
+    font-size: 16px;
+}
+.signup-header, .login-header, .main-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    text-align: center;
+    color: #444444;
+    background-size: cover;
+}
+.login-header{
+    background: url(http://server1.decorcamp.com/images/www.macwallhd.com/wp-content/Wallpapers/20120625/At%20the%20Office%20Mac%20Apple%20Wallpapers%20Creative%20Planning-2982192420.jpeg) no-repeat center center;
+    padding-bottom: 140px;
+}
+.signup-header{
+    background: url(http://nevseoboi.com.ua/uploads/posts/2011-12/1323575451-1223898-by-blackwolfik-59.jpg) no-repeat center center;
+    padding-bottom: 50px;
+}
+.main-header{
+    padding-top: 200px;
+    background: url(http://media.idownloadblog.com/wp-content/uploads/2014/09/iOS-8-iPad-Wallpaper-Jason-Zigrino-7.jpg) no-repeat center center;
+    padding-bottom: 200px;
+}
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.login-btn{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.panel-heading{
+    text-align: left;
+}
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+h1{
+    font-size: 50px !important;
+}
+.btn-search{
+    width:100px;
+}
+.main-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
