@@ -63,11 +63,5 @@
 </div>
 <!-- Bootstrap Core JavaScript -->
 <script src="${pageContext.request.contextPath}/bootstrap/js/bootstrap.min.js"></script>
-
-
-<!-- Onton code-->
-<s:form>
-    <s:textfield>name</s:textfield>
-</s:form>
 </body>
 </html>
