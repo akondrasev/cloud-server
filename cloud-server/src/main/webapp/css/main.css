@@ -29,7 +29,6 @@ html {
 }
 
 .signup-header {
-    background: url(http://nevseoboi.com.ua/uploads/posts/2011-12/1323575451-1223898-by-blackwolfik-59.jpg) no-repeat center center;
     padding-bottom: 50px;
 }
 
@@ -71,4 +70,8 @@ h1 {
 .main-container {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.hidden {
+    display: none;
 }
