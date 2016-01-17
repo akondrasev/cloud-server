@@ -9,5 +9,9 @@
         <action name="" class="inc.actions.login.LoginPageAction" method="execute">
             <result name="success">jsp/login/login.jsp</result>
         </action>
+
+        <action name="smartcard" class="inc.actions.eid.HandleSmartcard" method="execute">
+            <result name="success">jsp/login/login.jsp</result>
+        </action>
     </package>
 </struts>

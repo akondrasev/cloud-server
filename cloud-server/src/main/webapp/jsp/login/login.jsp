@@ -144,10 +144,10 @@
                 <div class="panel-heading">
                     <h1>Sign In</h1>
 
-                    <p class="under-heading">
-                        Don't have an account?
-                        <a href="signup.html" class="label label-default">Sign Up Here</a>
-                    </p>
+                    <%--<p class="under-heading">--%>
+                        <%--Don't have an account?--%>
+                        <%--<a href="signup.html" class="label label-default">Sign Up Here</a>--%>
+                    <%--</p>--%>
                 </div>
                 <div class="panel-body">
                     <form id="login_form" class="form-horizontal" role="form" autocomplete="off">
@@ -155,17 +155,17 @@
                             <span class="input-group-addon">
                                 <i class="glyphicon glyphicon-user"></i>
                             </span>
-                            <input id="username" type="text" class="form-control" name="username" value="" placeholder="username"/>
+                            <input id="username" type="text" class="form-control" name="username" value="" placeholder="username" disabled/>
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon">
                                 <i class="glyphicon glyphicon-lock"></i>
                             </span>
-                            <input id="password" type="password" class="form-control" name="password" placeholder="password"/>
+                            <input id="password" type="password" class="form-control" name="password" placeholder="password" disabled/>
                         </div>
-                        <div class="login-btn">
-                            <a href="#" class="btn btn-info btn-lg" role="button">Login</a>
-                        </div>
+                        <%--<div class="login-btn">--%>
+                            <%--<a href="#" class="btn btn-info btn-lg" role="button">Login</a>--%>
+                        <%--</div>--%>
                         <hr class="intro-divider">
 
                         <div class="form-group text-center">
@@ -184,7 +184,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-success btn-lg" role="button">
+                                    <a href="smartcard.action" id="idcard-login" class="btn btn-success btn-lg" role="button">
                                         <i class="fa fa-credit-card fa-fw"></i> ID-card
                                     </a>
                                 </li>
